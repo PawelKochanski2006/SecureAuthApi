@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="SecureAuthApi.AppHost/SecureAuthApi.AppHost.csproj" />
+  <Project Path="SecureAuthApi.ServiceDefaults/SecureAuthApi.ServiceDefaults.csproj" />
+  <Project Path="SecureAuthApi/SecureAuthApi.csproj" />
+</Solution>

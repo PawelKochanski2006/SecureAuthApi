@@ -1,0 +1,135 @@
+syntax: glob
+
+### .NET / ASP.NET Core ###
+bin/
+obj/
+artifacts/
+*.log
+*.binlog
+*.pdb
+*.tmp
+*.cache
+*.lock.json
+
+# Aspire
+.aspire/
+.playground/
+playground/**/publish/
+
+# User settings
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build configurations
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# VS + Rider
+.vs/
+.idea/
+_ReSharper*/
+*.DotSettings.user
+/_ReSharper.Caches/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+.vshistory/
+
+# Coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+*.dotCover
+
+# Publish
+publish/
+*.publishproj
+*.pubxml
+*.azurePubxml
+PublishScripts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Logs & test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Tools
+.dotnet/
+.tools/
+.packages/
+.tye/
+BenchmarkDotNet.Artifacts/
+
+# Azure / Azurite
+**/.azurite/*
+*.svclog
+
+# Node.js / Frontend
+node_modules/
+.angular/
+
+# Python / local envs
+.venv/
+.env/
+*.pyc
+__pycache__/
+
+# OS / IDE junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.apdisk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Security-sensitive or local files
+*.pfx
+*.publishsettings
+*.dbmdl
+*.mdf
+*.ldf
+
+# Temporary / tooling outputs
+tools/ReleaseNotes/analysis-output/
+tools/ReleaseNotes/release-notes-*.md
+extension/dist/
+extension/.localization/
+extension/out/
+extension/node_modules/
+extension/.vscode-test/
+extension/l10n/bundle.l10n*.json
+extension/package.nls.*.json
+
+# Environment variables and secrets
+*.env
+appsettings.Development.json
+appsettings.Production.json
+launchSettings.json
